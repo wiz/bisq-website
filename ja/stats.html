@@ -11,53 +11,42 @@ language: 日本語
 <script defer src="{{ site.url }}/js/highstock.js"></script>
 <script defer src="{{ site.url }}/js/stats.js"></script>
 
-<h1>Network Stats</h1>
+{% assign item = site.data[page.lang].stats %}
+<h1>{{ item.hNetworkStats }}</h1>
 
 <div class='chart-stat-container'>
     <div class='stat-chart' id="volume-container"></div>
-    <p>See <a href='{{ site.url }}/markets'>Markets page</a> for volume by currency.</p>
+    {{ item.pSeeMarkets }}
 </div>
 
 <div class='chart-stat-container'>
     <div class='stat-chart' id="bsq-container"></div>
-    <p>The mainnet <a href='https://docs.bisq.network/dao-user-reference.html#bsq-genesis-distribution' target='_blank'>BSQ genesis distribution</a> took place in April 2019.</p>
+    <p>{{ item.pBSQDistribution }}</p>
 </div>
 
 <div class='plain-stat-container'>
-    <p class='stat-label'>Total Trades</p>
-    <p class='stat-figure'>34,535</p>
-    <p class='stat-note'>Through July 2019</p>
+    {{ item.pTotalTrades }}
 </div>
 
 <div class='plain-stat-container'>
-    <p class='stat-label'>Daily Average Trades</p>
-    <p class='stat-figure'>72</p>
-    <p class='stat-note'>For July 2019</p>
+    {{ item.pDailyAverage }}
 </div>
 
 <div class='plain-stat-container'>
-    <p class='stat-label'>Software Downloads</p>
-    <p class='stat-figure'>17,968</p>
-    <p class='stat-note'>For v1.1.2 (approximate)</p>
+    {{ item.pSoftwareDownloads }}
 </div>
 
 <div class='plain-stat-container'>
-    <p class='stat-label'>GitHub Contributors</p>
-    <p class='stat-figure'>182</p>
-    <p class='stat-note'>As of July 2019</p>
+    {{ item.pGithubContributors }}
 </div>
 
 <div class='plain-stat-container'>
-    <p class='stat-label'>Twitter Followers</p>
-    <p class='stat-figure'>17,945</p>
-    <p class='stat-note'>As of July 2019</p>
+    {{ item.pTwitterFollowers }}
 </div>
 
 <div class='plain-stat-container'>
-    <p class='stat-label'>Slack Users</p>
-    <p class='stat-figure'>1,258</p>
-    <p class='stat-note'>As of July 2019</p>
+    {{ item.pSlackUsers }}
 </div>
 
 <br>
-<p class='monitor-note'>For P2P network load, Tor metrics, and other network data, please visit the <a href='https://monitor.bisq.network' target='_blank'>Bisq Network Monitor</a>.</p>
+{{ item.pNetworkLoad }}
