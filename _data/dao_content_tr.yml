@@ -149,7 +149,7 @@ ja:
 
 
 - title: Bisq DAOとは何ですか？
-  intro: ""
+  intro: "<p>Bisq DAOは、トレーダーから貢献者への価値の転送を可能にします。 BSQトークンは、これを非中央集権型の方法で可能にします。</p><p> トレード手数料は、Bisqを無国籍かつ主権を維持するために、企業やその他の法人に制限されることなく貢献者へと分配されます。</p>"
   href_text: DAOについてもっと知る ›
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
@@ -179,9 +179,8 @@ ja:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ""
-  id: ""
-
+  img: ../images/DAO/dao_benefits.svg
+  id: benefits
 pt-PT:
 - title: "A OAD do Bisq"
   intro: " Descentralizando a distribuição da receita e a tomada de decisões para tornar o Bisq auto-sustentável e resistente à censura. <span class=\"footnote\">OAD significa Organização Autónoma Descentralizada</span> <a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">Ver mais &darr;</a> "
