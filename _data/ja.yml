@@ -94,61 +94,73 @@ dao:
   bisqDaoBrief: Bisq DAOの概略ビデオ
   pBisqDaoBrief: "<p class=\"bigger\">Bisq DAOの早く短い<a href=\"https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e\" target=\"_blank\">ビデオシリーズ</a>。</p>"
   technicalOverview: 技術概要-ドキュメント
-  pTechnicalOverview: ""
-  notConvinced: ""
-  pNotConvinced: ""
-  seeMore: >
+  pTechnicalOverview: "<p class=\"bigger\">Bisq DAOとBSQトークンの動作の<a href=\"https://docs.bisq.network/dao/specification.html\" target=\"_blank\" rel=\"noopener\">仕様</a>。</p>"
+  notConvinced: "トークンが必要だと確信していないですか？"
+  pNotConvinced: "<p class=\"bigger\">あなた専用の<a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">投稿</a>があります。</p>"
+  seeMore: >-
+    <p><a href='https://docs.bisq.network/dao.html'>Bisq DAOに関するすべて</a>のドキュメントで、その他のリソースを参照できます。</p><p>過去の貢献者は、<a href='https://docs.bisq.network/compensation.html#get-added-to-genesis'>このリンク</a>をチェックして、ジェネシスBSQディストリビューションに追加する手順を確認してください。</p>
+
+     
 downloads:
-  hBisqDownloads: ""
-  runningWindows: ""
-  runningMac: ""
-  runnigDebian: ""
-  runningRedHat: ""
-  tdWindows: ""
-  tdMac: ""
-  tdDebian: ""
-  tdRedHat: ""
-  tdArchLinux: ""
-  tdArchLinuxText: ""
-  tdSourceCode: ""
-  tdReleaseNotes: ""
-  tdReleaseNotesText: ""
-  tdVerification: ""
-  tdVerificationText1: ""
-  tdVerificationText2: ""
-  pSeeInstructions: ""
-  hMobileNotifications: ""
-  pMobileNotifications: ""
-  p2MobileNotifications: ""
+  hBisqDownloads: Bisqダウンロード
+  runningWindows: Windowsを実行しているようです。
+  runningMac: Macを実行しているようです。
+  runnigDebian: Debian/Ubuntuを実行しているようです。
+  runningRedHat: Red Hat/Fedoraを実行しているようです。
+  tdWindows: Windows
+  tdMac: Mac
+  tdDebian: Debian/Ubuntu
+  tdRedHat: Red Hat/Fedora
+  tdArchLinux: Arch Linux
+  tdArchLinuxText: Archユーザーリポジトリ
+  tdSourceCode: ソースコード
+  tdReleaseNotes: リリースノート
+  tdReleaseNotesText: "リリースノート for "
+  tdVerification: 検証
+  tdVerificationText1: PGP署名
+  tdVerificationText2: PGPパブリックキー
+  pSeeInstructions: "<p class=\"small\">最初のトレードを完了する方法については<a href=\"https://docs.bisq.network/getting-started.html\">Bisqの概要</a>をご覧ください。</p>"
+  hMobileNotifications: Bisqモバイル通知
+  pMobileNotifications: トレードを最新の状態に保ち、携帯電話で通知を受け取りましょう。
+  p2MobileNotifications: <p class="small mt-2">モバイル通知を受信するには、Bisqバージョン<strong>0.8.0</strong>以降が必要です。</p>
 
 faq:
-  hFAQ: ""
-  hCoreFunctions: ""
-  hSafeOpenSource: ""
+  hFAQ: FAQ
+  hCoreFunctions: コア機能
+  hSafeOpenSource: "Bisqは安全でオープンソースですか？"
   pSafeOpenSource: >
-  hDifferent: ""
+    <p>はい、Bisqのソフトウェアはオープンソースであり、GNU Affero General Public Licenseのバージョン3の下でライセンスされています。 これが
+     <a href="https://github.com/bisq-network/bisq/" target="_blank">ソースコード</a>と
+     <a href="https://github.com/bisq-network/bisq/blob/master/LICENSE" target="_blank">ライセンス</a>です。</p>
+    <p>Bisqはセキュリティを実現するために3つの主要なメカニズムを採用しています。</p> <ol>
+     <li>Bisqと取引されるすべてのビットコインは、2-of-3で保護されています
+      <a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">マルチシグ</a>アドレス。</li>
+     <li>両方の取引者は、セキュリティデポジットを支払う必要があります。 これらは、トレードが完了した後に返金されます。</li>
+     <li>Bisqは、調停人システムを使用してトレードの係争を処理します。</li>
+    </ol> <p> 法定通貨をビットコインと交換する場合、法定取引は技術的に取り消される可能性があるため、常にいくらかのチャージバックのリスクがあります。 このリスクを軽減するために、Bisqはチャージバックが困難だと知られている支払い方法のみをサポートします。これが、たとえば、BisqがPayPalやクレジットカードをサポートしない理由です。 </p><p>チャージバックリスクについて詳しくは、<a href="#chargeback-details">こちら</a>をご覧ください。</p>
+  hDifferent: "すでに他にも非中央集権型の取引所があります。 Bisqはどう違うのですか？"
   pDifferent: >
   hPaymentMethods: ""
   ulPaymentMethods: >
-  hTradingDetails: ""
+  hTradingDetails: トレードの詳細
   hTradeLimits: ""
   pTradeLimits: >
   hSecurityDeposit: ""
   pSecurityDeposit: >
-  hPrivacy: ""
+  hPrivacy: "Bisqはプライバシーをどう守りますか？"
   pPrivacy: >
-  hTradeDuration: ""
+  hTradeDuration: "トレードにどのくらい時間がかかりますか？"
   pTradeDuration: >
   hTradeCost: ""
   pTradeCost: >
-  hOpenOffer: ""
+  hOpenOffer: "オープンオファーがあるときに、アプリケーションをオンラインに保つ必要があるのはなぜですか？"
   pOpenOffer: >
-  hEditOffer: ""
-  pEditOffer: ""
-  hBank: ""
+  hEditOffer: "オファーをどのように変更できますか？"
+  pEditOffer: "<p><a href=\"https://github.com/bisq-network/bisq/releases/tag/v0.7.0\">バージョン0.7.0</a>では、追加手数料を支払わない、ポートフォリオ＞マイオープンオファーセクションでのオファー編集を導入しました。</p>"
+  hBank: "銀行はビットコインを購入していることを知りますか？"
   pBank: >
-  hDisputeRsolution: ""
-  hArbitrationProcess: ""
+  hDisputeRsolution: 係争の解決
+  hArbitrationProcess: "調停プロセスはどのように機能しますか？"
   pArbitrationProcess: >
   hCollusion: ""
   pCollusion: >
