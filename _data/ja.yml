@@ -19,8 +19,8 @@ homepage_content:
   buttonGetBisq: Bisqを入手
   buttonToggle: ドロップダウンを切り替えてください
   downloads: ダウンロード
-  androidNotificationsApp: Android通知アプリケーションを入手
-  iosNotificationApp: iOS通知アプリケーションを入手
+  androidNotificationsApp: Android通知アプリを入手
+  iosNotificationApp: iOS通知アプリを入手
   getStarted: 始める »
   runningWindows: Windowsを実行しているようです。
   runningMac: Macを実行しているようです。
@@ -79,7 +79,7 @@ os_selector_options:
   liDebian: ダウンロード for Debian/ubuntu
   liRedHat: ダウンロード for Red Hat/Fedora
   liArch: ダウンロード for Arch Linux
-  liArchText: Archユーザーリポジトリ
+  liArchText: Archリポジトリ
   liSourceCode: ソースコード
   liReleaseNotes: リリースノート
   liVerification: 検証
@@ -97,10 +97,8 @@ dao:
   pTechnicalOverview: "<p class=\"bigger\">Bisq DAOとBSQトークンの動作の<a href=\"https://docs.bisq.network/dao/specification.html\" target=\"_blank\" rel=\"noopener\">仕様</a>。</p>"
   notConvinced: "トークンが必要だと確信していないですか？"
   pNotConvinced: "<p class=\"bigger\">あなた専用の<a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">投稿</a>があります。</p>"
-  seeMore: >-
+  seeMore: >
     <p><a href='https://docs.bisq.network/dao.html'>Bisq DAOに関するすべて</a>のドキュメントで、その他のリソースを参照できます。</p><p>過去の貢献者は、<a href='https://docs.bisq.network/compensation.html#get-added-to-genesis'>このリンク</a>をチェックして、ジェネシスBSQディストリビューションに追加する手順を確認してください。</p>
-
-     
 downloads:
   hBisqDownloads: Bisqダウンロード
   runningWindows: Windowsを実行しているようです。
@@ -112,7 +110,7 @@ downloads:
   tdDebian: Debian/Ubuntu
   tdRedHat: Red Hat/Fedora
   tdArchLinux: Arch Linux
-  tdArchLinuxText: Archユーザーリポジトリ
+  tdArchLinuxText: Archリポジトリ
   tdSourceCode: ソースコード
   tdReleaseNotes: リリースノート
   tdReleaseNotesText: "リリースノート for "
