@@ -123,7 +123,7 @@ es:
 
 ja:
 - title: "The Bisq DAO"
-  intro: "収益分配と意思決定を非中央集権化させて、Bisqを自立させ、検閲抵抗性を持たせます。<span class=\"footnote\">DAOは、Decentralized Autonomous Organization（非中央集権化された自律組織）の略です。</span><a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">もっと見る＆darr;</a>"
+  intro: "収益分配と意思決定を非中央集権化させて、Bisqを自立させ、検閲抵抗性を持たせます。<span class=\"footnote\">DAOは、Decentralized Autonomous Organization（非中央集権化された自律組織）の略です。</span><a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">もっと見る&darr;</a>"
   img: ../images/DAO/dao_intro.svg
   class: -main
   id: intro
@@ -181,6 +181,7 @@ ja:
   rel: "noopener"
   img: ../images/DAO/dao_benefits.svg
   id: benefits
+
 pt-PT:
 - title: "A OAD do Bisq"
   intro: " Descentralizando a distribuição da receita e a tomada de decisões para tornar o Bisq auto-sustentável e resistente à censura. <span class=\"footnote\">OAD significa Organização Autónoma Descentralizada</span> <a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">Ver mais &darr;</a> "
