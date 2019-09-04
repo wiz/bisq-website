@@ -11,9 +11,9 @@ footer:
 homepage_content:
   title: "<span class=\"animate1\">取引所、</span><span class=\"animate2\">非中央集権化された</span>"
   intro: "Bisqは、各国通貨と引き換えに暗号通貨と売買できるオープンソースのピアツーピアアプリケーションです。登録は不要です。"
-  buttonWindows: ダウンロード for windows
+  buttonWindows: ダウンロード for Windows
   buttonMac: ダウンロード for Mac
-  buttonDebian: ダウンロード for Debian/ubuntu
+  buttonDebian: ダウンロード for Debian/Ubuntu
   buttonRedHat: ダウンロード for Red Hat/Fedora
   buttonDownloads: ダウンロード
   buttonGetBisq: Bisqを入手
@@ -74,9 +74,9 @@ main_nav:
 os_selector_options:
   liAllDownloads: 全てのダウンロード
   liAllDownloadsText: ダウンロードページヘ行く
-  liWindows: ダウンロード for windows
+  liWindows: ダウンロード for Windows
   liMac: ダウンロード for Mac
-  liDebian: ダウンロード for Debian/ubuntu
+  liDebian: ダウンロード for Debian/Ubuntu
   liRedHat: ダウンロード for Red Hat/Fedora
   liArch: ダウンロード for Arch Linux
   liArchText: Archリポジトリ
@@ -190,23 +190,29 @@ faq:
   pSoftwareBugs: >
   hMultisg: ""
   pMultisig: >
-  hOtherQuestions: ""
-  pOtherQuestions: ""
+  hOtherQuestions: "ここで取り上げていない質問があります…？"
+  pOtherQuestions: "<p>質問を<a href=\"https://bisq.community/\" target=\"_blank\">Bisqフォーラム</a>または<a href='https://bisq.network/slack-invite' target='_blank'>Slackチャンネル</a>に投稿してください。</p>"
 
 
 markets:
-  buy: ""
-  sell: ""
-  tradeHistory: ""
+  buy: BTCオファーを購入
+  sell: BTCオファーを売却
+  tradeHistory: トレード履歴<span class="grey">（最近の100トレード）</span>
 
 stats:
-  hNetworkStats: ""
-  pSeeMarkets: ""
-  pBSQDistribution: ""
+  hNetworkStats: ネットワーク統計
+  pSeeMarkets: "<p>通貨別の取引高については<a href='https://bisq.network/markets'>マーケットのページ</a>をご覧ください。</p>"
+  pBSQDistribution: メインネットBSQの配布は2019年4月に予定されています。
   pTotalTrades: >
+    <p class='stat-label'>合計トレード</p> <p class='stat-figure'>32,318</p> <p class='stat-note'>2019年6月まで</p>
   pDailyAverage: >
+    <p class='stat-label'>日毎の平均トレード</p> <p class='stat-figure'>94</p> <p class='stat-note'>2019年6月に</p>
   pSoftwareDownloads: >
+    <p class='stat-label'>ソフトウェアダウンロード</p> <p class='stat-figure'>13,723</p> <p class='stat-note'>v1.1.2（概算）で</p>
   pGithubContributors: >
+    <p class='stat-label'>GitHub貢献</p> <p class='stat-figure'>172</p> <p class='stat-note'>2019年6月現在</p>
   pTwitterFollowers: >
+    <p class='stat-label'>ツイッターフォロワー</p> <p class='stat-figure'>17,588</p> <p class='stat-note'>2019年6月現在</p>
   pSlackUsers: >
-  pNetworkLoad: ""
+    <p class='stat-label'>Slackユーザー</p> <p class='stat-figure'>1,183</p> <p class='stat-note'>2019年6月現在</p>
+  pNetworkLoad: "<p class='monitor-note'>P2Pネットワーク負荷、Torメトリック、およびその他のネットワークデータについては、<a href='https://monitor.bisq.network' target='_blank'>Bisq Network Monitor</a>をご覧ください。</p>"
