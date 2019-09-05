@@ -1,0 +1,234 @@
+footer:
+  notificationApp: Bisqモバイル通知アプリ
+  siteYear: © 2019 Bisq
+  ulResources: リソース
+  liDownloads: ダウンロード
+  liRoadmap: ロードマップ
+  liContribute: 貢献
+  liMarketData: 市場データAPI
+  joinBisq: Bisqに参加
+
+homepage_content:
+  title: "<span class=\"animate1\">取引所、</span><span class=\"animate2\">非中央集権化された</span>"
+  intro: "Bisqは、各国通貨と引き換えに暗号通貨と売買できるオープンソースのピアツーピアアプリケーションです。登録は不要です。"
+  buttonWindows: ダウンロード for Windows
+  buttonMac: ダウンロード for Mac
+  buttonDebian: ダウンロード for Debian/Ubuntu
+  buttonRedHat: ダウンロード for Red Hat/Fedora
+  buttonDownloads: ダウンロード
+  buttonGetBisq: Bisqを入手
+  buttonToggle: ドロップダウンを切り替えてください
+  downloads: ダウンロード
+  androidNotificationsApp: Android通知アプリを入手
+  iosNotificationApp: iOS通知アプリを入手
+  getStarted: 始める »
+  runningWindows: Windowsを実行しているようです。
+  runningMac: Macを実行しているようです。
+  runnigDebian: Debian/Ubuntuを実行しているようです。
+  runningRedHat: Red Hat/Fedoraを実行しているようです。
+  currentVersion: 現在のバージョン
+  hFeatures: 特徴
+  hIdentityVerifications: 本人確認なし
+  pIdentityVerifications: すぐにアクセスできます。登録や中央当局からの承認は不要です。
+  hDecentralized: 非中央集権化
+  pDecentralized: 取引は自分のマシンでBisqを実行しているユーザーのグローバルP2Pネットワーク上で行われます。
+  hSafe: 安全
+  pSafe: "Bisqが資産を保有することはありません。セキュリティデポジットとマルチシグトレードウォレットによって、安全で成功したトレードを促進します。"
+  hPrivate: プライベート
+  pPrivate: 取引パートナー以外とは、個人を特定するデータを交換しません。すべての個人データはローカルに保存されます。
+  hSecure: ""
+  pSecure: ダウンタイムなしでTor経由でルーティングされるエンドツーエンドの暗号化通信。
+  hOpen: オープン
+  pOpen: "<p class=\"grey px-md-5\">コードは<a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">オープンソース</a>で、プロジェクト戦略は<a href=\"https://bisq.network/slack-invite\" target=\"_blank\" rel=\"noopener\">Slack</a>と<a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>でオープンに議論されています。</p>"
+  hEasy: 使うのが簡単
+  pEasy: "<p class=\"grey px-md-5\">この洗練された機能をすべてシンプルにしました。<a href='https://docs.bisq.network/getting-started' target='_blank' rel=\"noopener\">最初の取引</a>を10分以内で！</p>"
+  hBisqDao: Bisq DAO
+  pBisqDao1: 非中央集権型の取引所のための非中央集権化されたガバナンス。
+  pBisqDao2: もっと知る
+  hGetStarted: 始め方
+  divGetStarted: "Bisqを使って、あなたは10分以内に取引を開始できます。"
+  liGetStarted1: アプリケーションをダウンロード
+  liGetStarted2: "、またはソースからビルド。"
+  liGetStarted3: >
+    <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">あなたの国または暗号通貨のアカウントを追加してください。</li><li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">新しいオファーを作成するか、既存のオファーを受けてください。</li><li class="mt-0 step step-text-4" data-image="step-image-4">ユーザーインターフェイスに従ってトレードを完了してください。</li>
+  hJoin: コミュニティに参加
+  pJoin: >
+    <p>Bisqは、<a href="https://bisq.network/community/">コミュニティ</a>に参加するための高度なスキルを持つ開発者、デザイナー、およびセキュリティの専門家を常に探しています。 Bisqの改善に関心がありましたら、<a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">貢献する</a>方法はたくさんあります。<a href="https://bisq.network/community/">あなたから</a>のご連絡をお待ちしています！<p>私たちの<a href="https://bisq.network/roadmap/">ロードマップ</a>は、Bisq v1.0への道のりにおける高度な機能とマイルストーンの概要を提供しています。</p>
+  liGithub: ""
+  liTwitter: ""
+  liYoutube: Bisq YouTubeチャンネル
+  liSlack: Bisq Slackワークスペース
+  liForum: Bisqフォーラム
+  liMailingList: Bisq貢献者メーリングリスト
+  liFreenodeIRC: ""
+  liSubreddit: ""
+
+main_nav:
+  liDownloads: ダウンロード
+  liLearnMore: もっと知る
+  liDocumentation: ドキュメント
+  liBlog: ブログ
+  liCommunity: コミュニティ
+  buttonDownloads: ダウンロード
+
+os_selector_options:
+  liAllDownloads: 全てのダウンロード
+  liAllDownloadsText: ダウンロードページヘ行く
+  liWindows: ダウンロード for Windows
+  liMac: ダウンロード for Mac
+  liDebian: ダウンロード for Debian/Ubuntu
+  liRedHat: ダウンロード for Red Hat/Fedora
+  liArch: ダウンロード for Arch Linux
+  liArchText: Archリポジトリ
+  liSourceCode: ソースコード
+  liReleaseNotes: リリースノート
+  liVerification: 検証
+  liVerificationText1: PGP署名
+  liVerificationText2: PGPパブリックキー
+
+dao:
+  hLearnMore: "もっと知りたいですか？"
+  pLearnMore: "Bisq DAOの詳細については、高レベルのELI5スタイルのドキュメントやビデオから開発者向けの技術仕様まで、以下のリソースからご覧ください。"
+  conceptualOverview: コンセプトの概要ドキュメント
+  pConceptualOverview: "<p class=\"bigger\">DAOの平易な<a href=\"https://docs.bisq.network/user-dao-intro.html\" target=\"_blank\" rel=\"noopener\">説明</a>。</p>"
+  bisqDaoBrief: Bisq DAOの概略ビデオ
+  pBisqDaoBrief: "<p class=\"bigger\">Bisq DAOの早く短い<a href=\"https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e\" target=\"_blank\">ビデオシリーズ</a>。</p>"
+  technicalOverview: 技術概要-ドキュメント
+  pTechnicalOverview: "<p class=\"bigger\">Bisq DAOとBSQトークンの動作の<a href=\"https://docs.bisq.network/dao/specification.html\" target=\"_blank\" rel=\"noopener\">仕様</a>。</p>"
+  notConvinced: "トークンが必要だと確信していないですか？"
+  pNotConvinced: "<p class=\"bigger\">あなた専用の<a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">投稿</a>があります。</p>"
+  seeMore: >
+    <p><a href='https://docs.bisq.network/dao.html'>Bisq DAOに関するすべて</a>のドキュメントで、その他のリソースを参照できます。</p><p>過去の貢献者は、<a href='https://docs.bisq.network/compensation.html#get-added-to-genesis'>このリンク</a>をチェックして、ジェネシスBSQディストリビューションに追加する手順を確認してください。</p>
+downloads:
+  hBisqDownloads: Bisqダウンロード
+  runningWindows: Windowsを実行しているようです。
+  runningMac: Macを実行しているようです。
+  runnigDebian: Debian/Ubuntuを実行しているようです。
+  runningRedHat: Red Hat/Fedoraを実行しているようです。
+  tdWindows: Windows
+  tdMac: Mac
+  tdDebian: Debian/Ubuntu
+  tdRedHat: Red Hat/Fedora
+  tdArchLinux: Arch Linux
+  tdArchLinuxText: Archリポジトリ
+  tdSourceCode: ソースコード
+  tdReleaseNotes: リリースノート
+  tdReleaseNotesText: "リリースノート for "
+  tdVerification: 検証
+  tdVerificationText1: PGP署名
+  tdVerificationText2: PGPパブリックキー
+  pSeeInstructions: "<p class=\"small\">最初のトレードを完了する方法については<a href=\"https://docs.bisq.network/getting-started.html\">Bisqの概要</a>をご覧ください。</p>"
+  hMobileNotifications: Bisqモバイル通知
+  pMobileNotifications: トレードを最新の状態に保ち、携帯電話で通知を受け取りましょう。
+  p2MobileNotifications: <p class="small mt-2">モバイル通知を受信するには、Bisqバージョン<strong>0.8.0</strong>以降が必要です。</p>
+
+faq:
+  hFAQ: FAQ
+  hCoreFunctions: コア機能
+  hSafeOpenSource: "Bisqは安全でオープンソースですか？"
+  pSafeOpenSource: >
+    <p>はい、Bisqのソフトウェアはオープンソースであり、GNU Affero General Public Licenseのバージョン3の下でライセンスされています。 これが
+     <a href="https://github.com/bisq-network/bisq/" target="_blank">ソースコード</a>と
+     <a href="https://github.com/bisq-network/bisq/blob/master/LICENSE" target="_blank">ライセンス</a>です。</p>
+    <p>Bisqはセキュリティを実現するために3つの主要なメカニズムを採用しています。</p> <ol>
+     <li>Bisqと取引されるすべてのビットコインは、2-of-3で保護されています
+      <a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">マルチシグ</a>アドレス。</li>
+     <li>両方の取引者は、セキュリティデポジットを支払う必要があります。 これらは、トレードが完了した後に返金されます。</li>
+     <li>Bisqは、調停人システムを使用してトレードの係争を処理します。</li>
+    </ol> <p> 法定通貨をビットコインと交換する場合、法定取引は技術的に取り消される可能性があるため、常にいくらかのチャージバックのリスクがあります。 このリスクを軽減するために、Bisqはチャージバックが困難だと知られている支払い方法のみをサポートします。これが、たとえば、BisqがPayPalやクレジットカードをサポートしない理由です。 </p><p>チャージバックリスクについて詳しくは、<a href="#chargeback-details">こちら</a>をご覧ください。</p>
+  hDifferent: "すでに他にも非中央集権型の取引所があります。 Bisqはどう違うのですか？"
+  pDifferent: >
+    <p>現在、非中央集権型のビットコインと法定通貨との交換で、私達の定義に適合するプロジェクトは他にありません。<a href="https://openbazaar.org/" target="_blank">OpenBazaar</a>は、Bisqの原則を反映したものに近いプロジェクトの1つですが、これは汎用のマーケットであって、通貨交換に特化していません。 </p><p>非中央集権化されていると主張するほとんどの取引所は、法定通貨の交換をサポートしていないか、クライアント-サーバーアーキテクチャで動作し、私達の定義に適合していません。 そしてもちろん、ホワイトペーパーを使用したICOプロジェクトは数多くありますが、実用的なソフトウェアを提供できることはまだ証明されていません。</p><p> 適切に非中央集権化するには、単一障害点を回避する必要があります。</p><ul>
+     <li>Bisqはビットコインを保持しません。Bisqが制御するウォレットではなく、すべてがマルチシグネチャアドレスに保持されます。</li>
+    <li>Bisqはいかなる国家通貨も保持しません。 国家通貨は、トレーダーから別のトレーダーへと直接送金されます。</li>
+     <li>BisqはTor上でピアツーピアネットワークを使用します。 これは、ハッキングまたはDDoSされるサーバーがないことを意味します</li>
+      <li>Bisqはトレーダーを知りません。 誰が誰と取引するかに関するデータは保存されません。</li>
+     <li>Bisqは登録を必要としません。 これは、プライバシーが維持され、「承認」の待ち時間がなく、個人情報の盗難が不可能であることを意味します。</li>
+     <li>Bisqは会社ではありません。 これは、 <a href="https://docs.bisq.network/user-dao-intro.html#what-is-a-dao" target="_blank" rel="noopener">非中央集権化された自治組織（Decentralized Autonomous Organization : DAO）</a>として組織されたオープンソースプロジェクトです。
+     </li>
+    </ul>
+  hPaymentMethods: ""
+  ulPaymentMethods: >
+  hTradingDetails: トレードの詳細
+  hTradeLimits: "トレード制限はどうなっていますか？"
+  pTradeLimits: >
+    <p class='font-italic'>法定通貨トレード</p> <p>法定通貨取引での詐欺を防ぐために、Bisqはトレード額に制限を課しています。 これらの制限は、支払い方法のチャージバックリスクとアカウントの年齢（つまり、Bisqで支払いアカウントを入力してからの時間）に基づいています。</p> <p> 制限はトレード数にはなく、トレードあたりの金額だけにあります。</p> <p> SEPAやZelleのようなほとんどの銀行ベースの支払い方法の場合、トレード制限は１トレードあたり0.5 BTCです。 Swish、PerfectMoney、AliPayなどのサービスの場合、1 BTCです。 Revolut、Popmoney、MoneyBeam（N26）などの最近追加された支払い方法の場合、トレード制限は0.25 BTCです。</p> <p> Bisqに初めて法定通貨支払いアカウントを追加した時、そのトレード制限は完全なトレード制限の25％になります。 その後、完全なトレード制限に達するまで30日ごとに増加します。</p><p class='font-italic'>アルトコイントレード</p> <p>アルトコイントレードは、初日から2 BTCまでのトレードが許可されています。アルトコインにはチャージバックリスクがないため、アカウントの加齢は不要です。</p>
+  hSecurityDeposit: "なぜBisqはセキュリティデポジットを要求するのですか？"
+  pSecurityDeposit: >
+    <p>セキュリティデポジットは、買い手と売り手の両方がBisqのトレードプロトコルのルールに従うためのインセンティブを作成します。 それらは取引されるビットコインとともにマルチシグエスクローにロックされ、トレードが正常に完了すると各ユーザーに返却されます。</p> <p>トレードが係争へ進み、一方の当事者がBisqのトレードプロトコルに違反していることが判明した場合、その当事者のセキュリティデポジットの一部またはすべてがトレード相手へと与えられる可能性があります。プロトコル違反の例には、買い手が売り手に支払うことに失敗する、または売り手が買い手の支払いの受領を承認することに失敗することが含まれます。</p><p>ほとんどのBisqのトレードは、セキュリティデポジットが生み出すインセンティブのおかげで、問題なく完了します。</p>
+  hPrivacy: "Bisqはプライバシーをどう守りますか？"
+  pPrivacy: >
+    <p>Bisqはスタンドアローンのオープンソースソフトウェアであり、マシンで実行する前に検査できます。その結果、サーバーが個人情報を記録していることを信頼する必要はありません（Webサイトの場合のように）。 </p> <p>トレードプロセスでは、あなたの支払い情報はあなたのマシンにローカルに保存され、あなたのトレード相手（そして係争の場合はあなたの調停人）だけがそれを見ることができます。 ユーザー間で交換されるすべてのデータは暗号化および署名されます。</p> <p>あるユーザーから別のユーザーにデータを送信するために、BisqはTorの上に構築されたP2Pネットワークを使用し、高度な匿名性を提供します。 ユーザーは、これらすべてを機能させるために追加の作業を行う必要はありません。すべてがアプリケーションに統合されています。</p>
+  hTradeDuration: "トレードにどのくらい時間がかかりますか？"
+  pTradeDuration: >
+  hTradeCost: "Bisqでのトレードにはどれくらいのコストがかかりますか？"
+  pTradeCost: >
+    <p>Bisqでトレードするには、ユーザーは（1）Bisqにトレード手数料を支払い、（2）マイナーにマイニング手数料を支払います。</p> <strong>トレード手数料</strong> <p>オファーのメイカーはトレード額の0.1％を支払い、オファーのテイカーはトレード額の0.3％を支払います。 どちらのケースも、ダスト制限を回避するため、最小値は0.00005 BTCです。</p>
+
+    <strong>マイニング手数料</strong> <p>オファーのメイカーは、トレード手数料として、トレードのマイニング手数料のみを支払います。 オファーのテイカーは、トレード手数料トランザクション、デポジットトランザクション、および支払いトランザクションのマイニング手数料を支払います。 これは、マイニング手数料が変動し、オファーのメイカーがオファーの取得時にマイニング手数料がいくらになるかを知ることができないためです。</p> <p> Bisqは<a href="https://bitcoinfees.earn.com/api/v1/fees/list" target="_blank">このサービス</a>を使用して料金を見積もります。 ユーザーは、オファーを作成または取得した後、実際のマイニング手数料を確認できます。</p>
+  hOpenOffer: "オープンオファーがあるときに、アプリケーションをオンラインに保つ必要があるのはなぜですか？"
+  pOpenOffer: >
+    <p>もしあなたがオファーを公開した場合、Bisqアプリケーションはオンラインのままにして、別のトレーダーがオファーを受け取りたいときに反応できるようにする必要があります（マルチシグデポジットトランザクションはテイクオフプロセスで作成されます）。 Bisqアプリケーションがオンライン状態を維持できるように、コンピューターのスタンバイモードを無効にしてください（モニターのスタンバイは問題ありません）。</p> <p>Bisqアプリケーションがオフラインになった場合、オファーは配布されたオファーブックから削除されます。これは次回Bisqアプリケーションを起動したときに再発行されます。</p> <p>オファーが取得されてトレードプロセスが開始された後、どちらのトレーダーも継続的にオンラインである必要はありませんが、各トレーダーは定期的にオンラインになり、自分の側で何らかのアクションが必要かどうかを確認する必要があります（例：法定通貨/アルトコインの送信、支払い受領の承認など）。</p>
+  hEditOffer: "オファーをどのように変更できますか？"
+  pEditOffer: "<p><a href=\"https://github.com/bisq-network/bisq/releases/tag/v0.7.0\">バージョン0.7.0</a>では、追加手数料を支払わない、ポートフォリオ＞マイオープンオファーセクションでのオファー編集を導入しました。</p>"
+  hBank: "銀行はビットコインを購入していることを知りますか？"
+  pBank: >
+  hDisputeRsolution: 係争の解決
+  hArbitrationProcess: "調停プロセスはどのように機能しますか？"
+  pArbitrationProcess: >
+  hCollusion: ""
+  pCollusion: >
+  hChargeback: ""
+  pChargeback: >
+  hReputationSystem: ""
+  pReputationSystem: >
+  hBeArbitrator: ""
+  pBeArbitrator: ""
+  hContactPeer: ""
+  pContactPeer: >
+  hBisqDAO: ""
+  hBisqDaoWhat: ""
+  pBisqDaoWhat: >
+  hBisqDaoHow: ""
+  pBisqDaoHow: >
+  hNeedToKnow: ""
+  pNeedToKnow: >
+  hUseBSQ: ""
+  pUseBSQ: >
+  hBisqToken: ""
+  pBisqToken: >
+  hMiscellaneous: ""
+  hNoBitcoins: ""
+  pNoBitcoins: >
+  hPaymentSupport: ""
+  pPaymentSupport: >
+  hSoftwareBugs: ""
+  pSoftwareBugs: >
+  hMultisg: ""
+  pMultisig: >
+  hOtherQuestions: "ここで取り上げていない質問があります…？"
+  pOtherQuestions: "<p>質問を<a href=\"https://bisq.community/\" target=\"_blank\">Bisqフォーラム</a>または<a href='https://bisq.network/slack-invite' target='_blank'>Slackチャンネル</a>に投稿してください。</p>"
+
+
+markets:
+  buy: BTCオファーを購入
+  sell: BTCオファーを売却
+  tradeHistory: トレード履歴<span class="grey">（最近の100トレード）</span>
+
+stats:
+  hNetworkStats: ネットワーク統計
+  pSeeMarkets: "<p>通貨別の取引高については<a href='https://bisq.network/markets'>マーケットのページ</a>をご覧ください。</p>"
+  pBSQDistribution: メインネットBSQの配布は2019年4月に予定されています。
+  pTotalTrades: >
+    <p class='stat-label'>合計トレード</p> <p class='stat-figure'>32,318</p> <p class='stat-note'>2019年6月まで</p>
+  pDailyAverage: >
+    <p class='stat-label'>日毎の平均トレード</p> <p class='stat-figure'>94</p> <p class='stat-note'>2019年6月に</p>
+  pSoftwareDownloads: >
+    <p class='stat-label'>ソフトウェアダウンロード</p> <p class='stat-figure'>13,723</p> <p class='stat-note'>v1.1.2（概算）で</p>
+  pGithubContributors: >
+    <p class='stat-label'>GitHub貢献</p> <p class='stat-figure'>172</p> <p class='stat-note'>2019年6月現在</p>
+  pTwitterFollowers: >
+    <p class='stat-label'>ツイッターフォロワー</p> <p class='stat-figure'>17,588</p> <p class='stat-note'>2019年6月現在</p>
+  pSlackUsers: >
+    <p class='stat-label'>Slackユーザー</p> <p class='stat-figure'>1,183</p> <p class='stat-note'>2019年6月現在</p>
+  pNetworkLoad: "<p class='monitor-note'>P2Pネットワーク負荷、Torメトリック、およびその他のネットワークデータについては、<a href='https://monitor.bisq.network' target='_blank'>Bisq Network Monitor</a>をご覧ください。</p>"
