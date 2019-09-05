@@ -5,7 +5,7 @@ ref: vision
 lang: ja
 language: 日本語
 ---
-# Vision
+# ビジョン
 {: .mb-5}
 
 ### [Exchanges](https://en.wikipedia.org/wiki/Bitcoin_exchange#List_of_Bitcoin_Exchanges){:target="_blank"} play a critical role in the Bitcoin ecosystem. Without them, it would be nearly impossible to buy or sell bitcoin for euros, dollars, yen or yuan. The bitcoin market would have no liquidity, and bitcoin would be worthless.

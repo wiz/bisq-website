@@ -5,15 +5,15 @@ ref: community
 lang: ja
 language: 日本語
 ---
-# Community
+# コミュニティ
 {: .mb-5}
 
-### Join our community and help build an exchange which is designed with the principles of Bitcoin in mind.
+### 私たちのコミュニティに参加して、ビットコインの思想に則り設計された取引所の構築を支援してください。
 {: .mt-5 .col-sm-12 .col-md-10 .pl-0}
 
 
 
-##### Connect
+##### 接続
 {: .mt-5 .mb-sm-3 .mb-md-0 }
 
 <div class="row mb-sm-4 mb-md-0">
