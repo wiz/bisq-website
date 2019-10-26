@@ -125,7 +125,6 @@ function getTrades( pair ) {
                 $( '<th>' ).text( 'Trade Amount')
             ).appendTo( '#trade-history-header' );
 
-            data = JSON.parse(data);
             $.each( data, function( key, val ) {
 
                 tradeDate = new Date( val.trade_date );
@@ -169,7 +168,6 @@ function getTrades( pair ) {
                 ).appendTo( '#trade-history-header' );
             }
 
-            data = JSON.parse( data );
             $.each( data , function( key, val ) {
 
                 tradeDate = new Date(val.trade_date);
@@ -262,12 +260,12 @@ function buildData( jsonUrl ){
     if( !pair || pair === 'all' ) {
 
         pair = 'btc';
-        jsonUrl = "https://markets.wiz.biz/api/volumes?basecurrency=btc&milliseconds=true&timestamp=no&format=jscallback&fillgaps=&callback=?&interval=day";
+        jsonUrl = "https://markets.wiz.biz/api/volumes?basecurrency=btc&milliseconds=true&timestamp=no&fillgaps=&interval=day";
         getTrades();
 
     } else {
 
-        jsonUrl = 'https://markets.wiz.biz/api/hloc' + '?market=' + pair + '&timestamp=no' + '&interval=minute' + '&timestamp_from=' + '&timestamp_to=' + '&format=jscallback'+'&callback=?';
+        jsonUrl = 'https://markets.wiz.biz/api/hloc' + '?market=' + pair + '&timestamp=no' + '&interval=minute' + '&timestamp_from=' + '&timestamp_to=';
         getTrades( pair );
         getOffers( pair );
 
