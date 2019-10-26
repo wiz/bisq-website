@@ -49,7 +49,11 @@ function buildTicker( pair ) {
 }
 
 
-function buildChartTitle( valueFinal, pair ) {
+function buildChartTitle( data, pair ) {
+
+    var valueFinal = 0;
+    if (data[data.length-1] && data[data.length-1][7])
+        valueFinal = data[data.length-1][7];
 
     var chartTitle = '';
 
@@ -391,7 +395,7 @@ function buildData( jsonUrl ){
             },
 
             title: {
-                text: buildChartTitle(data[data.length-1][7], pair),
+                text: buildChartTitle(data, pair),
                 align: 'left',
                 x:20,
                 y:30,
