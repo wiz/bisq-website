@@ -275,7 +275,30 @@ function buildData( jsonUrl ){
 
     }
 
-    $.getJSON( jsonUrl, function( data ) {
+    $.getJSON( jsonUrl, function( rawdata ) {
+
+        // convert raw data into array
+        var data = [];
+        for (var k = 0; k < rawdata.length; k++)
+        {
+            if (pair === 'btc')
+                data[k] = [
+                    (new Date(rawdata[k]["period_start"]).getTime()),
+                    parseFloat(rawdata[k]["volume"]),
+                    parseFloat(rawdata[k]["num_trades"])
+                ];
+            else
+                data[k] = [
+                    (new Date(rawdata[k]["period_start"]).getTime()),
+                    parseFloat(rawdata[k]["high"]),
+                    parseFloat(rawdata[k]["open"]),
+                    parseFloat(rawdata[k]["low"]),
+                    parseFloat(rawdata[k]["close"]),
+                    parseFloat(rawdata[k]["volume_left"]),
+                    parseFloat(rawdata[k]["volume_right"]),
+                    parseFloat(rawdata[k]["avg"])
+                ];
+        }
 
         //split the data set into hloc and volume
 
@@ -299,25 +322,25 @@ function buildData( jsonUrl ){
 
                 if( pair.startsWith( "btc" ) ) {
                   avg.push([
-                      data[i][0] * 1000, // the date
+                      data[i][0], // the date
                       data[i][7]  // the average
                   ]);
 
                   volumeFiat.push([
-                      data[i][0] * 1000, // the date
+                      data[i][0], // the date
                       data[i][6]  // the volume_left
                   ]);
 
                 } else {
 
                   avg.push([
-                      data[i][0] * 1000, // the date
+                      data[i][0], // the date
                       ( data[i][7] )  // the average
                     ]);
                   }
 
                   volume.push([
-                      data[i][0] * 1000, // the date
+                      data[i][0], // the date
                       data[i][6]  // the volume_right
                   ]);
               }
@@ -513,7 +536,7 @@ function buildData( jsonUrl ){
                   tooltip: {
                       pointFormat: '<tr style="color: {series.color}" ><td>{series.name}: </td>' + '<td style="text-align: right"> <b>' + ( pair === 'btc' ? '{point.y:.0f}' : ( pair.startsWith('btc') ? '{point.y:.2f}' : '{point.y:.8f}' ) ) + '</b></td></tr>',
                   },
-                  data: avg,
+                  data: $.extend([], avg),
                   yAxis: 1,
                   color: '#25B135',
                   getExtremesFromAll:false,
@@ -539,7 +562,7 @@ function buildData( jsonUrl ){
                           return '<tr style="color: ' + this.series.color + '" ><td>' + this.series.name + ': </td><td style="text-align: right"> <b>' + Highcharts.numberFormat(this.y, 2, '.', ',') + ( pair.startsWith('btc') ? ' ' + buildTicker(pair) : ' BTC' ) + '</b></td></tr>';
                       }
                   },
-                  data: ( pair === 'btc' ? volume : ( pair.startsWith('btc') ? volumeFiat : volume ) ),
+                  data: $.extend([], ( pair === 'btc' ? volume : ( pair.startsWith('btc') ? volumeFiat : volume ) )),
                   color: '#bbb',
                   states: { hover: { color: '#aaa', duration: 0 } },
                   yAxis: 1,
